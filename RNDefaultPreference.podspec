@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   
   s.preserve_paths = 'README.md', 'package.json', 'index.js'
   s.source_files   = 'iOS/*.{h,m}'
-  s.source         = { :git => 'https://github.com/kevinresol/react-native-default-preference.git', :tag => "glow-v#{package['version']}" }
+  s.source         = { :git => 'https://github.com/upwlabs/react-native-default-preference.git', :tag => "glow-v#{package['version']}" }
 
   s.dependency 'React-Core'
 end
